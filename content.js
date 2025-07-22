@@ -1,8 +1,37 @@
 /* 
 Made by DeadLament
-RFY is "Recommended For You"
-Blocks all stuff appearing in Roblox webpage that i don't like 
-(RFY, Sponsored section, new 'Based on what you joined' that trashes the homepage)
+RFY = "Recommended For You"
+Blocks all stuff appearing in Roblox webpage that i don't like (RFY, Sponsored section (that is now filled with AI content), new 'Based on what you joined' that trashes the homepage)
+
+
+                                                       
+       ░░░                        ░░                   
+  ░▓▓▓▓████░                     ▓██▓░                 
+ ░██ ███  ███░   ░░░░          ░░██ ███▓▓▓░            
+░███ ░ █░   ███▓▓▓███░  ░░░░░░▓████   █▓ █▓░           
+░███░███░ ░ ██▓████░░██▓███████ ░██ █░█▓░███░          
+ ░███░░▓██     ░▓██  ░██░▓▓░ ██  ░░░▓██▓ ███░          
+  ░██▓█ ░▓██     ████ ▓█ ░ ░███  █▓▓██░░ ███░          
+  ░██▓▓██░██████░░░███░░░░░███▓██░▓█     ███░          
+  ░████░██▓░██░▓░░ ░    ██░░ ██░▓█▓ ░▓███░ ███░        
+  ░██░░ ░ ██ ░ ░░██░ █████ ░ ██ ░██░██▓██  ░ █▓░░      
+  ░██░░░░ ██     ██  ███░█   ██  ██░██▓██  ░ ███░      
+  ▓███░░░ ██████▓▓░██ ▓▓██ ███▓██ ░███ ░███    █▓░     
+ ░▓░  ░█▓ █░   ░███████████████▓▓▓████ ▓█▓▓███████░    
+  ▓███  ░█▓░██████▓▓▓▓▓▓▓██▓▓▓░███▓ ████ ██▓█   ████   
+  ░██░ █████▓▓▓▓▓█████████████▓▓░██ ██     ██     ██▓  
+  ░██░ ██▓▓▓██████████████   ███░██ █████▓   ███████▓  
+   ░██████████████████     ███▓█░██ ███░ ████   ▓███▓  
+   ░████████████▓▓▓▓▓███████   ██████▓█░   ██    ░███  
+   ░█▓▓▓▓▓▓█  █▓█████▓██     ████ ░░█████░   ███   ░█▓░
+   ░█▓▓▓████  ███████▓▓████████ ░░░░  ███████████████▓░
+   ░███▓████████████████████▓██░░░░░░ █░ ████  █▓▓███  
+    ░▓█▓██████   ███████  ██▓██ ░░░░░ █░   ██    ░ ▓█▓░
+     ▓██    ██ ██  ██   ████▓████░ ░  █████▓▓█████▓░░░ 
+      ░█████    ███   ██████▓█▓▓█▓█ ██                 
+       ░░█░████████████▓░░░░░█░  ░▓▓▓                  
+          ░█░▓░▓░▓░▓░░█▓▓▓▓▓░░                         
+            ░▓▓▓▓▓▓▓▓░        
 */
 
 
@@ -31,7 +60,7 @@ function removeRecommendations() {
     if (mainContainer) mainContainer.remove();
 
     // 1.1 'Sponsored'
-    removeDiv('https://www.roblox.com/discover#/sortName/v2/Sponsored')
+    removeDiv('https://www.roblox.com/charts#/sortName/v2/Sponsored')
 
     // 1.2 'Based on what you joined'
     removeDiv('https://www.roblox.com/discover#/sortName/v2/Based%20On%20What%20You%20Joined')
